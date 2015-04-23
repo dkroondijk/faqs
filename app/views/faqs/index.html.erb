@@ -1,7 +1,7 @@
 <h1>FAQs</h1>
 
-<ul>
+<ul id='faqs'>
   <% @faqs.each do |faq| %>
-    <li><%= faq.title %></li>
+    <li id="faq_<%= faq.id %>"><%= faq.title %></li>
   <% end %>
 </ul>
